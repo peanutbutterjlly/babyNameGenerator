@@ -94,3 +94,9 @@ picture {
 .icons a {
   color: var(--light-cyan);
 }
+
+@media (max-width: 500px) {
+  button:active {
+    outline: none;
+  }
+}
