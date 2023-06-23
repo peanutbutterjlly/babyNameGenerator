@@ -102,5 +102,6 @@ picture {
     background-color: initial;
     color: initial;
     outline: none;
+    touch-action: none;
   }
 }
