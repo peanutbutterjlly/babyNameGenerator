@@ -96,7 +96,9 @@ picture {
 }
 
 @media (max-width: 500px) {
-  button:active {
+  button:has(:active, :focus) {
+    background-color: initial;
+    color: initial;
     outline: none;
   }
 }
