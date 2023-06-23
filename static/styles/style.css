@@ -70,12 +70,36 @@ footer {
   margin-bottom: 0.3rem;
 }
 
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-8px);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .dice {
+  animation-name: bounce;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-delay: 4s;
   background-color: var(--neon-green);
   border: none;
   border-radius: 99vw;
   cursor: pointer;
   padding: 0.9rem;
+  position: relative;
   margin-bottom: -3.3rem;
 }
 
