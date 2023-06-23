@@ -50,10 +50,18 @@ footer {
   font-size: 1.1rem;
 }
 
+.baby {
+  text-align: center;
+}
+
 .babyName {
   font-size: var(--font-size-quote);
   max-inline-size: 22ch;
   text-align: center;
+}
+
+.gender {
+  font-size: 0.7rem;
 }
 
 .avatar {
