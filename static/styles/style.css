@@ -48,7 +48,6 @@ picture {
 
 .babyName {
   font-size: var(--font-size-quote);
-  margin-bottom: 1rem;
   max-inline-size: 22ch;
   text-align: center;
 }
