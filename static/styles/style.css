@@ -67,7 +67,8 @@ picture {
   margin-bottom: -3.3rem;
 }
 
-.dice:has(:hover, :focus) {
+.dice:hover,
+.dice:focus {
   background-color: var(--grayish-blue);
 }
 
@@ -96,7 +97,8 @@ picture {
 }
 
 @media (max-width: 500px) {
-  button:has(:active, :focus) {
+  button:active,
+  button:focus {
     background-color: initial;
     color: initial;
     outline: none;
