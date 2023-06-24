@@ -103,9 +103,11 @@ footer {
   margin-bottom: -3.3rem;
 }
 
-.dice:hover,
-.dice:focus {
-  background-color: var(--grayish-blue);
+@media (hover: hover) {
+  .dice:hover,
+  .dice:focus {
+    background-color: var(--grayish-blue);
+  }
 }
 
 .dice:disabled {
